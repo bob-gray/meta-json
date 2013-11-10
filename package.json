@@ -1,0 +1,13 @@
+{
+  "name": "meta-json",
+  "version": "0.0.1",
+  "description": "JavaScript meta data for runtime behavior and static analysis",
+  "keywords": [
+    "meta",
+    "documetation"
+  ],
+  "main": "parser.js",
+  "repository": "",
+  "author": "Bob Gray <gray.bob98@gmail.com>",
+  "license": "MIT"
+}
