@@ -6,8 +6,11 @@
     "meta",
     "documetation"
   ],
-  "main": "parser.js",
-  "repository": "",
+  "main": "./parser.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bob-gray/meta-json.git"
+  },
   "author": "Bob Gray <gray.bob98@gmail.com>",
   "license": "MIT"
 }
