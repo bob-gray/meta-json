@@ -14,12 +14,12 @@ JavaScript meta data for runtime behavior and static analysis
 Runtime API
 -----------
 
-The runtime API consists of a single function, `meta`, that accepts a single
-argument, `data`. To allow for easy static anlysis, `data` must be a valid JSON
-object literal. `meta` has no side effects. The purpose of `meta` is to make
-parsing meta data easy and to provide a mechanism for runtime transformation of
-meta data JSON, if necessary (see Data Transformation). `data` is passed through
-and can then be used to dictate behavior.
+The runtime API consists of a single function: `meta`, that accepts a single
+argument: `data`. To allow for easy static anlysis `data` must be a valid JSON
+object literal. `data` is passed through and can then be used to dictate
+behavior. `meta` has no side effects. The purpose of `meta` is to make parsing
+meta data easy and to provide a mechanism for runtime transformation of meta
+data JSON if necessary (see Data Transformation).
 
 The simpliest implementation of `meta` is:
 
